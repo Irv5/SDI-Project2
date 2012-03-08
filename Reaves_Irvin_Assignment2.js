@@ -49,3 +49,30 @@ else{
 }
 };
 weather();
+
+// Number Function
+
+var stroke = function (stroke1, stroke2, stroke3){
+	var strokes = stroke1 + stroke2 + stroke3,
+		totalShots, totalYradage;
+	
+	
+
+var strokes = 0;
+ 	
+while (strokes <= 226) {
+	  strokes+=175, 50, 1;
+	  console.log(strokes);
+	
+	};
+	
+	totalYradage = "Par 3 this is a " + strokes + " yard hole!";
+	
+	return totalYradage;
+};
+
+var  totalYradage = stroke(175, 50, 1); 
+console.log(totalYradage)
+//stroke(175, 50, 1);
+//console.log("3 strokes = Par!");
+
