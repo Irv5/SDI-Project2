@@ -33,3 +33,19 @@ else{
 
 var totalDrivingDistance = totalTeeShotDistance(250, 275, 239);
 console.log(totalDrivingDistance);
+
+// Procedure
+
+var weather = function  (Wet, Dry){
+	toDaysWeather = Wet, Dry;
+	//var toDaysWeather = wet, Dry;
+console.log(weather);
+
+if(toDaysWeather == Wet){
+		console.log("It's wet out today, wear your rain gear.");
+}
+else{
+		console.log("It's dry today, hit it long and strong.");	
+}
+};
+weather();
