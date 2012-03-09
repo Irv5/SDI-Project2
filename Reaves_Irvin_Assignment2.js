@@ -76,3 +76,30 @@ console.log(totalYradage)
 //stroke(175, 50, 1);
 //console.log("3 strokes = Par!");
 
+// Array Function
+
+var golfHoles = function (hole1, hole2, hole3, hole4, hole5){
+var golfHole = hole1, hole2, hole3, hole4, hole5, holes;
+var gHoles = ["hole 1",  "hole 2", "hole 3", "hole 4", "hole 5"]; 
+var hole = [428, 195, 537, 405, 492];
+var adjectives = ["Dog Leg Right", "Straight shot", "Dog Leg Right", "Dog Leg Left", "Dog Leg Right"];	
+
+
+		
+	
+		
+	for (var i=0, checkLength=gHoles.length; i < checkLength; i++) {
+	console.log(  gHoles[i]  + " " +  hole[i] + " yards " + adjectives[i] );
+	
+	
+	
+};
+	holes = "golfHoles";
+	
+	return holes
+
+
+};
+var holes = golfHoles();
+//golfHoles() 
+//console.log(golfHoles);
